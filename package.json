@@ -1,6 +1,7 @@
 {
   "name": "dream-house",
   "version": "0.1.0",
+  "homepage": "https://khrystynastyslo.github.io/dream-house",
   "private": true,
   "dependencies": {
     "node-sass": "^4.14.1",
