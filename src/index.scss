@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "Sf-ui-display light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/assets/fonts/sf-ui-display-light-58646b33e0551.otf");
+}
+
+@font-face {
+  font-family: "Sf-ui-display semibold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/assets/fonts/sf-ui-display-semibold-58646eddcae92.otf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: calc(1em + 1vw);
+  overflow-x: hidden;
+  user-select: none;
+}
+
+.title {
+  font-family: "Sf-ui-display semibold";
+  font-size: 1.5em;
+  line-height: 124%;
+  letter-spacing: -0.04em;
+  color: #000000;
+}
+
+.btn {
+  display: inline-block;
+  height: 55px;
+  min-width: 150px;
+  padding: 0 25px;
+  background: #FD665E;
+  border-radius: 4px;
+  font-family: "Sf-ui-display light";
+  font-size: 0.5em;
+  line-height: 55px;
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: all .3s linear;
+  &:hover {
+    background: darken(#FD665E, 3%);
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(255,0,0,1);
+    -moz-box-shadow: 0px 0px 7px 0px rgba(255,0,0,1);
+    box-shadow: 0px 0px 7px 0px rgba(255,0,0,1);
+  }
+  &:active {
+    background: darken(#FD665E, 8%);
+  }
+}
+
+button {
+  height: 48px;
+  width: 48px;
+  display: inline-block;
+  background: none;
+  border: none;
+  cursor: pointer;
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    background: rgba(0, 0, 0, 0.03);
+    border-radius: 4px;
+    svg {
+      path {
+        fill: #FD665E;
+      }
+    }
+  }
+}
+
+.slick-slide * {
+  outline: none !important;
+}
+
+.footer {
+  justify-content: space-between;
+  height: 200px;
+  border-top: 1px solid #F0F0F0;
+}

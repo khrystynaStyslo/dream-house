@@ -1,0 +1,22 @@
+.main-title {
+  position: relative;
+  left: 10%;
+  display: inline-block;
+  padding: 10px 0;
+  p {
+    font-family: "Sf-ui-display semibold";
+    font-size: 4em;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #000000;
+    span {
+      color: #FD665E;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    width: 85%;
+    p {
+      font-size: 3em;
+    }
+  }
+}
