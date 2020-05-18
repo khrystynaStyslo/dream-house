@@ -39,13 +39,15 @@ const Archmove = () => {
               <p>Monitor reports from the Arsitag team who check directly in the field.</p>
             </div>
           </div>
-          <a
-            href="#"
-            className="btn"
-            onClick={toggleClick}
-          >
-            FREE CONSULTATION
-          </a>
+          <div>
+            <a
+              href="#"
+              className="btn-pink"
+              onClick={toggleClick}
+            >
+              FREE CONSULTATION
+            </a>
+          </div>
         </div>
       </div>
       {modal && (
@@ -56,7 +58,7 @@ const Archmove = () => {
           class="my-class"
         >
           <div className="box-body">
-            <ContactForm/>
+            <ContactForm onClose={toggleClick}/>
           </div>
         </Modal>
       )}
