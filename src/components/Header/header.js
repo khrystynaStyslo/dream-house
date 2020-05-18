@@ -7,7 +7,7 @@ const Header = () => {
     <header className="header">
       <BurgerMenu/>
       <div className="header-logo">
-        <img src="/assets/images/logo.png" alt=""/>
+        <img src="assets/images/logo.png" alt=""/>
       </div>
       <ul className="header-nav">
         <li className="header-nav__item">

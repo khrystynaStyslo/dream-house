@@ -48,22 +48,22 @@ const MainSlider = () => {
       <div className="main-list__slider">
         <Slider ref={slider} {...settings}>
           <div className="slider__item" key={1}>
-            <img src="/assets/images/img-01.png" alt=""/>
+            <img src="assets/images/img-01.png" alt=""/>
           </div>
           <div className="slider__item" key={2}>
-            <img src="/assets/images/img-02.png" alt=""/>
+            <img src="assets/images/img-02.png" alt=""/>
           </div>
           <div className="slider__item" key={3}>
-            <img src="/assets/images/img-03.png" alt=""/>
+            <img src="assets/images/img-03.png" alt=""/>
           </div>
           <div className="slider__item" key={4}>
-            <img src="/assets/images/img-01.png" alt=""/>
+            <img src="assets/images/img-01.png" alt=""/>
           </div>
           <div className="slider__item" key={5}>
-            <img src="/assets/images/img-02.png" alt=""/>
+            <img src="assets/images/img-02.png" alt=""/>
           </div>
           <div className="slider__item" key={6}>
-            <img src="/assets/images/img-03.png" alt=""/>
+            <img src="assets/images/img-03.png" alt=""/>
           </div>
         </Slider>
       </div>

@@ -26,7 +26,7 @@ const Footer = () => {
         </li>
       </ul>
       <div className="header-logo">
-        <img src="/assets/images/logo.png" alt=""/>
+        <img src="assets/images/logo.png" alt=""/>
       </div>
     </header>
   )

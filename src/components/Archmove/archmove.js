@@ -15,7 +15,7 @@ const Archmove = () => {
       </h2>
       <div className="archmove-info">
         <div className="archmove-info__image">
-          <img src="/assets/images/photo2.png" alt=""/>
+          <img src="assets/images/photo2.png" alt=""/>
         </div>
         <div className="archmove-info__text">
           <div className="archmove-item">

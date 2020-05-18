@@ -21,7 +21,7 @@ const MainDescription = () => {
         </a>
       </div>
       <div className="main-description__image">
-        <img src="/assets/images/photo1.png" alt=""/>
+        <img src="assets/images/photo1.png" alt=""/>
       </div>
       {modal && (
         <Modal
