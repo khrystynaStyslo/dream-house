@@ -37,7 +37,7 @@ const Modal = ({
     <div className={`modal ${`size-${size}`} fade-${fadeType} ${className}`}>
       <div className="box-dialog">
         <div className="box-header">
-          <h4 className="box-title">Contact form</h4>
+          <h4 className="box-title">Title Of Modal</h4>
           <button onClick={handleClick} className="close">
             ×
           </button>

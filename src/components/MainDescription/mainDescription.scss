@@ -1,10 +1,11 @@
 .main-description {
   position: relative;
+  left: 10%;
   display: flex;
   justify-content: flex-start;
   width: 85%;
   height: 500px;
-  padding: 50px 0 110px 10%;
+  padding: 50px 0 110px;
   &__text {
     width: 30%;
     p {
@@ -34,7 +35,7 @@
       width: 60%;
     }
     @media screen and (max-width: 720px) {
-      width: 90%;
+      width: 100%;
     }
   }
   @media screen and (max-width: 900px) {

@@ -1,11 +1,9 @@
 import React from 'react';
 import './header.scss';
-import BurgerMenu from "../BurgerMenu/burgerMenu";
 
 const Header = () => {
   return (
     <header className="header">
-      <BurgerMenu/>
       <div className="header-logo">
         <img src="/assets/images/logo.png" alt=""/>
       </div>

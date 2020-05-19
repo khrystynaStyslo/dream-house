@@ -16,7 +16,7 @@ const Realize = () => {
         <a
           href="#"
           onClick={toggleClick}
-          className="btn-pink"
+          className="btn"
         >
           FREE CONSULTATION
         </a>
@@ -29,7 +29,7 @@ const Realize = () => {
           class="my-class"
         >
           <div className="box-body">
-            <ContactForm onClose={toggleClick}/>
+            <ContactForm/>
           </div>
         </Modal>
       )}

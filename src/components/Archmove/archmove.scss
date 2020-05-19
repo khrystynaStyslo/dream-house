@@ -1,6 +1,6 @@
 .archmove {
   position: relative;
-  padding-left: 10%;
+  left: 10%;
   .title {
     max-width: 30%;
     @media screen and (max-width: 720px) {
@@ -14,7 +14,7 @@
     align-items: center;
     height: 600px;
     padding-top: 40px;
-    width: 100%;
+    width: 90%;
     &__image {
       width: 40%;
       img {
@@ -43,7 +43,7 @@
           width: 25%;
         }
         &__description {
-          width: 65%;
+          width: 50%;
           span {
             font-family: "Sf-ui-display semibold";
             font-size: 0.6em;
