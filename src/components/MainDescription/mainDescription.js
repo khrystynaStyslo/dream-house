@@ -15,7 +15,7 @@ const MainDescription = () => {
         <a
           href="#"
           onClick={toggleClick}
-          className="btn"
+          className="btn-pink"
         >
           Free Consultation
         </a>
@@ -31,7 +31,7 @@ const MainDescription = () => {
           class="my-class"
         >
           <div className="box-body">
-            <ContactForm/>
+            <ContactForm onClose={toggleClick}/>
           </div>
         </Modal>
       )}

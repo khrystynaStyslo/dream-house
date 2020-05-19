@@ -1,23 +1,21 @@
 {
   "name": "dream-house",
   "version": "0.1.0",
-  "homepage": "https://khrystynaStyslo.github.io/dream-house",
   "private": true,
   "dependencies": {
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
+    "react-burger-menu": "^2.6.13",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
     "react-slick": "^0.26.0",
-    "gh-pages": "^2.0.1"
+    "url-loader": "^4.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
